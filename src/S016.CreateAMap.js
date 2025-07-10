@@ -1,3 +1,5 @@
+** start of script.js **
+
 var Map = function() {
     this.collection = {};
     // Only change code below this line
@@ -21,12 +23,7 @@ var Map = function() {
     }
 
     this.values = function() {
-        let res = [];
-        for(let key in this.collection) {
-            res.push[this.collection.hasOwnProperty(key)]
-        }
-
-        return res;
+       return Object.values(this.collection);
     }
 
     this.size = function() {
@@ -38,3 +35,6 @@ var Map = function() {
     }
     // Only change code above this line
 };
+
+** end of script.js **
+
